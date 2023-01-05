@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    margin: 100px 200px;  
+}
+
+
+
+/* header style */
+.header {
+    background-image: linear-gradient(rgba(49, 49, 49, 0.4) , rgba(0, 0, 0, 1)) , url(../images/images/donation1.jpg);
+    /* background-image: url(../images/images/donation1.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 270px;
+
+}
+
+.header-title {
+    color: white;
+    font-size: 48px;
+}
+
+.header-discription {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 20px 0 30px 0;
+    padding: 0 180px;
+    line-height: 22px;
+}
+
+.primary-btn {
+    background-color: #FF5959;
+    color: white;
+    padding: 12px 30px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.primary-btn:hover {
+    background-color: #d63333;
+}
+
+
+/* ---- donate today style ----- */
+
+.donate-today {
+    text-align: center;
+    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #ABABAB;
+    margin: 40px 0 30px;
+    width: 70%;
+}
+
+
+.donate-taka-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.donate-taka-container .donate-taka {
+    padding: 25px 15px;
+    background-color: #FAFAFA;
+    color: #707070;
+    font-size: 28px;
+    border-radius: 5px;
+}
+
+.donate-taka-container .active {
+    background-color: #FFEEEE;
+    border: 1px solid #d63333;
+    color: #d63333;
+}
+.other-amount {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 30px;
+    padding: 5px 15px;
+    border: 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+
+/* -------------------donate plan ---------------- */
+
+.donate-plan {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.donate-plan-cards-container {
+    display: flex;
+    text-align: left;
+    padding: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.donate-plan-card {
+    width: 32%;
+    padding: 40px 20px ;
+}
+
+.sky {
+    background-color: #EDF5F6;
+}
+
+.qink {
+    background-color: #FFEEEE;
+}
+
+.volvo {
+    background-color: #FFF4D6;
+}
+
+
+.plan-title {
+    margin: 25px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.plan-discription {
+    color: #7e8383;
+    font-size: 14px;
+    line-height: 18px;
+    padding-right: 10px;
+}
